@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg1"
+    android:padding="20sp"
+    tools:context=".Admin_Login">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Admin\nLogin"
+        android:textColor="@color/white"
+        android:fontFamily="@font/lobster"
+        android:rotation="-25"
+        android:textSize="50sp"
+        android:layout_marginBottom="100sp"
+        android:layout_marginTop="150sp"
+        android:gravity="center"
+        android:textStyle="bold"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="275sp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        app:boxCornerRadiusBottomEnd="20sp"
+        app:boxCornerRadiusBottomStart="20sp"
+        app:boxCornerRadiusTopEnd="20sp"
+        app:boxCornerRadiusTopStart="20sp">
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20sp"
+            android:hint="@string/enter_id"
+            android:id="@+id/id_no"/>
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="275sp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        app:boxCornerRadiusBottomEnd="20sp"
+        app:boxCornerRadiusBottomStart="20sp"
+        app:boxCornerRadiusTopEnd="20sp"
+        app:boxCornerRadiusTopStart="20sp">
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:layout_marginBottom="40sp"
+            android:hint="@string/enter_password"
+            android:id="@+id/password"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/admin_login_btn"
+        android:backgroundTint="@color/button_color_2"
+        android:textColor="@color/button_color_1"
+        android:fontFamily="@font/lobster"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/login"/>
+
+</LinearLayout>

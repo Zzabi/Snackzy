@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/button_color_1"
+    android:padding="25sp"
+    tools:context=".AddItemFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/enter_item_details"
+        android:fontFamily="@font/lobster"
+        android:textSize="40sp"
+        android:textColor="@color/grey"
+        android:layout_marginBottom="20sp"
+        android:gravity="center"
+        android:textStyle="bold"/>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:boxCornerRadiusBottomEnd="20sp"
+        app:boxCornerRadiusTopStart="20sp"
+        app:boxCornerRadiusTopEnd="20sp"
+        app:boxCornerRadiusBottomStart="20sp">
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20sp"
+            android:hint="@string/enter_item_name"
+            android:id="@+id/item_name"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:boxCornerRadiusBottomEnd="20sp"
+        app:boxCornerRadiusTopStart="20sp"
+        app:boxCornerRadiusTopEnd="20sp"
+        app:boxCornerRadiusBottomStart="20sp">
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20sp"
+            android:digits="0123456789"
+            android:inputType="number"
+            android:hint="@string/enter_item_price"
+            android:id="@+id/item_price"/>
+    </com.google.android.material.textfield.TextInputLayout>
+    <Switch
+        android:id="@+id/availability"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/available"
+        android:fontFamily="@font/lobster"
+        android:textColor="@color/grey"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20sp"
+        tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/lobster"
+        android:backgroundTint="@color/button_color_2"
+        android:text="@string/delete_item"
+        android:drawableEnd="@drawable/baseline_delete_24"
+        android:id="@+id/delete_item_button"/>
+
+</LinearLayout>

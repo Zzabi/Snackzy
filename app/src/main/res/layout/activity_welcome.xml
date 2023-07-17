@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/bg1"
+    android:padding="20sp"
+    tools:context=".Welcome">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="190sp"
+        android:fontFamily="@font/lobster"
+        android:gravity="center"
+        android:rotation="-20"
+        android:text="@string/welcome_to_appname"
+        android:textSize="50sp"
+        android:textColor="#FAE7CA"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:id="@+id/google"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20sp"
+        android:src="@drawable/google_signin"/>
+
+    <Button
+        android:id="@+id/login_admin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/button_color_1"
+        android:fontFamily="@font/lobster"
+        android:textColor="@color/grey"
+        android:textStyle="bold"
+        android:textAllCaps="false"
+        android:text="@string/login_as_admin"/>
+
+
+
+</LinearLayout>

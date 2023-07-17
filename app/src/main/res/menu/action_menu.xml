@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:title="@string/signout"
+        android:id="@+id/signout_option"/>
+    <item android:title="@string/proceed_to_cart"
+        android:id="@+id/proceed_to_cart"
+        android:icon="@drawable/baseline_shopping_cart_24"
+        app:showAsAction="ifRoom"/>
+</menu>

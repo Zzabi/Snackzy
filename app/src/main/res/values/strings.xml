@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Snackzy</string>
+    <string name="login_as_admin">Login as ADMIN</string>
+    <string name="sign_in_with_google">Sign In with google</string>
+    <string name="register">REGISTER</string>
+    <string name="enter_full_name">Enter Full name</string>
+    <string name="enter_phone_number">Enter Phone number</string>
+    <string name="login">LOGIN</string>
+    <string name="enter_id">Enter ID</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="title_activity_test">test</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="view_items">View Items</string>
+    <string name="add_item">Add Item</string>
+    <string name="order_history">Order History</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="enter_item_name">Enter name</string>
+    <string name="add">ADD</string>
+    <string name="enter_item_details">Enter item details</string>
+    <string name="signout">Signout</string>
+    <string name="proceed_to_cart">Proceed to cart</string>
+    <string name="payment_details">Payment details</string>
+    <string name="edit">EDIT</string>
+    <string name="item_price">Item Price :</string>
+    <string name="item_name">Item Name :</string>
+    <string name="enter_item_price">Enter Price</string>
+    <string name="available">Available</string>
+    <string name="delete_item">Delete item</string>
+    <string name="price">Price</string>
+    <string name="total_price">Total Price :</string>
+    <string name="make_payment">Make Payment</string>
+    <string name="welcome_to_appname">Welcome to \n Snackzy!</string>
+    <string name="create_nnew_naccount">Create\nnew\nAccount</string>
+    <string name="orders">Orders</string>
+    <string name="order_details">Order Details</string>
+</resources>
