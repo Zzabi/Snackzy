@@ -106,3 +106,6 @@ Follow these steps to set up the project on your local machine.
 
 - [Firebase](https://firebase.google.com/) for authentication and real-time database.
 - [EasyUPIPayment](https://github.com/mukeshsolanki/easyupipayment) for providing an easy way to integrate UPI payments.
+
+
+## You can download the [app](main.apk) to try for urself
