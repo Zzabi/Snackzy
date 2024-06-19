@@ -109,3 +109,9 @@ Follow these steps to set up the project on your local machine.
 
 
 ## You can download the [app](main.apk) to try for urself
+
+For trying out admin features<br>
+ID = "sanckzy"<br>
+Password = "123"
+
+## Leave a Star if this repo is helpful, Thankyou
