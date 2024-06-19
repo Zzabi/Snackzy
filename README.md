@@ -51,7 +51,7 @@ Follow these steps to set up the project on your local machine.
 
     ```sh
     git clone https://github.com/Zzabi/Snackzy.git
-    cd snackzy
+    cd Snackzy
     ```
 
 2. **Open in Android Studio**:
